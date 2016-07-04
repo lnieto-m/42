@@ -3,17 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lnieto-m <lnieto-m@student.42.fr>          +#+  +:+       +#+        */
+/*   By: svelhinh <svelhinh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 11:27:36 by lnieto-m          #+#    #+#             */
-/*   Updated: 2016/06/12 12:08:37 by lnieto-m         ###   ########.fr       */
+/*   Updated: 2016/05/27 14:01:59 by svelhinh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <unistd.h>
 # include <string.h>
 # include <stdlib.h>
 
@@ -61,7 +60,7 @@ int					ft_tolower(int c);
 int					ft_toupper(int c);
 char				*ft_strstr(const char *haystack, const char *needle);
 char				*ft_strnstr(const char *hatstack, const char *need, int n);
-int					ft_putchar(char c);
+void				ft_putchar(char c);
 void				ft_putstr(char const *str);
 void				ft_putnbr(int n);
 void				ft_putendl(char const *str);
@@ -81,9 +80,16 @@ char				*ft_strchr(const char *s, int c);
 char				*ft_strrchr(const char *s, int c);
 int					ft_strequ(const char *s1, const char *s2);
 int					ft_strnequ(const char *s1, const char *s2, int n);
-char				*ft_itoa(long long int n);
-char				*ft_itoa_base(unsigned long long n, int base);
+char				*ft_itoa(int n);
 void				ft_reverse(char *str);
 int					get_next_line(int const fd, char **line);
+int					ft_atoi_base(char *s, int base);
+double				ft_atof(char const *s);
+char				*ft_strndup(const char *s, size_t n);
+void				ft_strclean(char *s);
+void				ft_strclr(char *s);
+char				*ft_strnjoin(char const *s1, char const *s2, size_t n);
+void				ft_exit(char *s);
+char				*ft_itoa_base(int value, int base);
 
 #endif
