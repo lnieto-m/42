@@ -6,8 +6,11 @@ Project done with the Graphics Library GTK.
 
 ## Usage
 
+GTK+ and the GSL - GNU scientific library must be installed on your device.
+
+Build and Run :
 ```
-./rt [file]
+make && ./rt [file]
 ```
 
 File example :
