@@ -1,3 +1,3 @@
 # RT
 
-![ptdrrr](./screenshot/minion.jpg)
+![ptdrrr](RT/screenshot/minion.jpg)
