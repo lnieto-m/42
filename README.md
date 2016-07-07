@@ -76,8 +76,15 @@ color : 1 0 0.5
 ```
 
 Result :
-![suject1](https://raw.githubusercontent.com/lnieto-m/RT/master/screenshots/sujet1.jpg)
+![sujet1](https://raw.githubusercontent.com/lnieto-m/RT/master/screenshots/sujet1.jpg)
 
 ### Others examples
 
+A minion :
 ![minion](https://raw.githubusercontent.com/lnieto-m/RT/master/screenshots/minion.jpg)
+
+Bomberman :
+![bomberman](https://raw.githubusercontent.com/lnieto-m/RT/master/screenshots/bomberman.jpg)
+
+The solar system :
+![solar system](https://raw.githubusercontent.com/lnieto-m/RT/master/screenshots/solar_system.jpg)
