@@ -1,3 +1,3 @@
 # RT
 
-![ptdrrr](RT/screenshot/minion.jpg)
+![ptdrrr](https://github.com/lnieto-m/RT/tree/master/screenshots)
