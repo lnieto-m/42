@@ -1,7 +1,7 @@
 # RT
 
-The 42 Raytracer project
-Project done with the Graphics Library GTK
+The 42 Raytracer project.
+Project done with the Graphics Library GTK.
 
 ## Usage
 
